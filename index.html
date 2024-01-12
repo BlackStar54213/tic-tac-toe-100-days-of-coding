@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widh1=device-widh1, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tictac.css">
+</head>
+
+<body>
+    <h1>Tic-Tac-Toe</h1>
+    <p>First Player is 'X' and second is 'O'</p>
+    <form class="frame">
+        <input type="text" id="row11" onclick="clickRow11(), myFunc()" readonly>
+        <input type="text" id="row12" onclick="clickRow12() , myFunc()" readonly>
+        <input type="text" id="row13" onclick="clickRow13() , myFunc()" readonly>
+        <input type="text" id="row21" onclick="clickRow21() , myFunc()" readonly>
+        <input type="text" id="row22" onclick="clickRow22() , myFunc()" readonly>
+        <input type="text" id="row23" onclick="clickRow23() , myFunc()" readonly>
+        <input type="text" id="row31" onclick="clickRow31()  , myFunc()" readonly>
+        <input type="text" id="row32" onclick="clickRow32() , myFunc()" readonly>
+        <input type="text" id="row33" onclick="clickRow33() , myFunc()" readonly>
+
+    </form>
+    <button type="reset" class="resetbtn" onclick="reloadGame()">RESTART</button>
+    <h3 class="winner" id="winner"></h3>
+
+
+    <div class="btn">
+        <button id="darkbtn">Dark Mode</button>
+    </div>
+</body>
+<script src="tictac.js"></script>
+
+</html>

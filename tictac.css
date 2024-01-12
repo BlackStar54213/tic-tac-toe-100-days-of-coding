@@ -1,0 +1,113 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: public sans;
+}
+
+h1 {
+    display: flex;
+    font-size: 5vw;
+    text-align: center;
+    color: orangered;
+    text-decoration: underline;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.frame {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: fit-content;
+    border-radius: 20px;
+    overflow: hidden;
+    gap: 2px;
+    background-color: white;
+}
+
+input {
+    height: 150px;
+    width: 155px;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: rgb(255, 94, 0);
+    border: none;
+}
+
+input:active {
+    background-color: red;
+}
+
+p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: black;
+    margin: 10px 0px;
+}
+
+
+
+
+input {
+    width: 156px;
+    text-align: center;
+    height: 150px;
+}
+
+h3 {
+    width: 100%;
+    background-color: white;
+    font-size: 60px;
+    color: rgb(0, 187, 25);
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 1s;
+    width: 35%;
+}
+
+.resetbtn {
+    padding: 10px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.resetbtn:hover {
+    background-color: white;
+    cursor: pointer;
+    color: orangered;
+    border: 1px solid orangered;
+    transition: all .6s;
+
+}
+
+#darkbtn {
+    background-color: white;
+    border: orangered 2px solid;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px;
+    color: orangered;
+}
